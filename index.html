@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OpenCV.js</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <script
+      async
+      src="https://docs.opencv.org/3.3.1/opencv.js"
+      onload="onOpenCvReady();"
+      type="text/javascript"
+    ></script>
+
+    <input type="file" id="fileInput" name="file" />
+    <img id="imageSrc" alt="No Image" />
+    <canvas id="imageCanvas"></canvas>
+    <button type="button" id="circlesButton" class="btn btn-primary">
+      Circle Detection
+    </button>
+  </body>
+</html>
